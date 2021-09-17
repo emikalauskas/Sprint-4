@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caa47606-33e4-43ed-94e6-1e34b7e51fc3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/exception/src/main/kotlin/ClientService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exception/src/main/kotlin/ClientService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception/src/main/kotlin/ValidationException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exception/src/main/kotlin/ValidationException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception/src/main/kotlin/Validator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exception/src/main/kotlin/Validator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception/src/test/kotlin/ClientServiceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exception/src/test/kotlin/ClientServiceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/main/kotlin/ru/sber/generics/Generics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/main/kotlin/ru/sber/generics/Generics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/src/test/kotlin/ru/sber/generics/GenericsTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/test/kotlin/ru/sber/generics/GenericsTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,53 +28,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.ClientServiceTest">
-    <configuration name="ClientServiceTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GenericsTest">
+    <configuration name="ClientServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exception" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClientServiceTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientServiceTest.fail save client - email validation errors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exception" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientServiceTest" />
-      <option name="METHOD_NAME" value="fail save client - email validation errors" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientServiceTest.fail save client - name validation error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exception" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientServiceTest" />
-      <option name="METHOD_NAME" value="fail save client - name validation error" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientServiceTest.fail save client - phone validation errors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exception" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientServiceTest" />
-      <option name="METHOD_NAME" value="fail save client - phone validation errors" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientServiceTest.fail save client - snils validation errors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="exception" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientServiceTest" />
-      <option name="METHOD_NAME" value="fail save client - snils validation errors" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,13 +49,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenericsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sber.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sber.generics" />
+      <option name="MAIN_CLASS_NAME" value="ru.sber.generics.GenericsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericsTest.sorterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sber.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sber.generics" />
+      <option name="MAIN_CLASS_NAME" value="ru.sber.generics.GenericsTest" />
+      <option name="METHOD_NAME" value="sorterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericsTest.stackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sber.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sber.generics" />
+      <option name="MAIN_CLASS_NAME" value="ru.sber.generics.GenericsTest" />
+      <option name="METHOD_NAME" value="stackTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenericsTest" />
+        <item itemvalue="JUnit.GenericsTest.stackTest" />
+        <item itemvalue="JUnit.GenericsTest.sorterTest" />
+        <item itemvalue="JUnit.ClientServiceTest" />
         <item itemvalue="JUnit.ClientServiceTest.fail save client - user data corrupted" />
-        <item itemvalue="JUnit.ClientServiceTest.fail save client - snils validation errors" />
-        <item itemvalue="JUnit.ClientServiceTest.fail save client - email validation errors" />
-        <item itemvalue="JUnit.ClientServiceTest.fail save client - phone validation errors" />
-        <item itemvalue="JUnit.ClientServiceTest.fail save client - name validation error" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +115,8 @@
       <option name="presentableId" value="Default" />
       <updated>1631694413550</updated>
       <workItem from="1631694416804" duration="21877000" />
+      <workItem from="1631864378409" duration="1024000" />
+      <workItem from="1631866169861" duration="3244000" />
     </task>
     <servers />
   </component>
@@ -125,5 +133,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
