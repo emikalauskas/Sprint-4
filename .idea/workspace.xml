@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caa47606-33e4-43ed-94e6-1e34b7e51fc3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/functional/src/test/java/ru/sber/functional/StudentsGroupTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datetime/src/main/kotlin/ru/sber/datetime/DateTime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/datetime/src/main/kotlin/ru/sber/datetime/DateTime.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional/src/main/kotlin/ru/sber/functional/PowFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/functional/src/main/kotlin/ru/sber/functional/PowFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional/src/main/kotlin/ru/sber/functional/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/functional/src/main/kotlin/ru/sber/functional/Student.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional/src/main/kotlin/ru/sber/functional/StudentsGroup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/functional/src/main/kotlin/ru/sber/functional/StudentsGroup.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional/src/test/java/ru/sber/functional/PowFactoryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/functional/src/test/java/ru/sber/functional/PowFactoryTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,81 +38,81 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.DateTimeKtTest">
-    <configuration name="DateTimeKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datetime" />
+  <component name="RunManager" selected="JUnit.StudentsGroupTest$PowFactoryTest">
+    <configuration name="StudentsGroupTest$PowFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sber.datetime.*" />
+          <option name="PATTERN" value="ru.sber.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.sber.datetime" />
-      <option name="MAIN_CLASS_NAME" value="ru.sber.datetime.DateTimeKtTest" />
+      <option name="PACKAGE_NAME" value="ru.sber.functional.StudentsGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.sber.functional.StudentsGroupTest$PowFactoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeKtTest.getFormattedDateTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datetime" />
+    <configuration name="StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have age" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sber.datetime.*" />
+          <option name="PATTERN" value="ru.sber.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.sber.datetime" />
-      <option name="MAIN_CLASS_NAME" value="ru.sber.datetime.DateTimeKtTest" />
-      <option name="METHOD_NAME" value="getFormattedDateTimeTest" />
+      <option name="PACKAGE_NAME" value="ru.sber.functional.StudentsGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.sber.functional.StudentsGroupTest$PowFactoryTest" />
+      <option name="METHOD_NAME" value="filterByPredicate should return students who have age" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeKtTest.getLastInMonthDayWeekListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datetime" />
+    <configuration name="StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have averageRate more than 4,5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sber.datetime.*" />
+          <option name="PATTERN" value="ru.sber.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.sber.datetime" />
-      <option name="MAIN_CLASS_NAME" value="ru.sber.datetime.DateTimeKtTest" />
-      <option name="METHOD_NAME" value="getLastInMonthDayWeekListTest" />
+      <option name="PACKAGE_NAME" value="ru.sber.functional.StudentsGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.sber.functional.StudentsGroupTest$PowFactoryTest" />
+      <option name="METHOD_NAME" value="filterByPredicate should return students who have averageRate more than 4,5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeKtTest.getNumberOfFridayThirteensInYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datetime" />
+    <configuration name="StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have city" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sber.datetime.*" />
+          <option name="PATTERN" value="ru.sber.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.sber.datetime" />
-      <option name="MAIN_CLASS_NAME" value="ru.sber.datetime.DateTimeKtTest" />
-      <option name="METHOD_NAME" value="getNumberOfFridayThirteensInYearTest" />
+      <option name="PACKAGE_NAME" value="ru.sber.functional.StudentsGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.sber.functional.StudentsGroupTest$PowFactoryTest" />
+      <option name="METHOD_NAME" value="filterByPredicate should return students who have city" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeKtTest.getZonesWithNonDivisibleByHourOffsetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datetime" />
+    <configuration name="StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have middleName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="functional" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sber.datetime.*" />
+          <option name="PATTERN" value="ru.sber.functional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.sber.datetime" />
-      <option name="MAIN_CLASS_NAME" value="ru.sber.datetime.DateTimeKtTest" />
-      <option name="METHOD_NAME" value="getZonesWithNonDivisibleByHourOffsetTest" />
+      <option name="PACKAGE_NAME" value="ru.sber.functional.StudentsGroupTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.sber.functional.StudentsGroupTest$PowFactoryTest" />
+      <option name="METHOD_NAME" value="filterByPredicate should return students who have middleName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DateTimeKtTest" />
-        <item itemvalue="JUnit.DateTimeKtTest.getFormattedDateTimeTest" />
-        <item itemvalue="JUnit.DateTimeKtTest.getNumberOfFridayThirteensInYearTest" />
-        <item itemvalue="JUnit.DateTimeKtTest.getLastInMonthDayWeekListTest" />
-        <item itemvalue="JUnit.DateTimeKtTest.getZonesWithNonDivisibleByHourOffsetTest" />
+        <item itemvalue="JUnit.StudentsGroupTest$PowFactoryTest" />
+        <item itemvalue="JUnit.StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have averageRate more than 4,5" />
+        <item itemvalue="JUnit.StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have city" />
+        <item itemvalue="JUnit.StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have age" />
+        <item itemvalue="JUnit.StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have middleName" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +140,8 @@
       <workItem from="1631864378409" duration="1024000" />
       <workItem from="1631866169861" duration="3244000" />
       <workItem from="1631871375170" duration="3432000" />
-      <workItem from="1631876577780" duration="731000" />
+      <workItem from="1631876577780" duration="4831000" />
+      <workItem from="1631886500105" duration="3246000" />
     </task>
     <servers />
   </component>
