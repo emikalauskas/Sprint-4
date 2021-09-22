@@ -17,7 +17,7 @@ fun getZonesWithNonDivisibleByHourOffset(): Set<String> {
 // 2.
 fun getLastInMonthDayWeekList(year: Int): List<String> {
     val list: MutableList<String> = mutableListOf()
-    for (month in 1..12) {
+    for (month in Month.values()) {
         val date = LocalDate.of(year, month, LocalDate.of(year, month, 1).lengthOfMonth())
         list.add(date.dayOfWeek.toString())
     }
@@ -27,7 +27,7 @@ fun getLastInMonthDayWeekList(year: Int): List<String> {
 // 3.
 fun getNumberOfFridayThirteensInYear(year: Int): Int {
     var cnt = 0
-    for (month in 1..12) {
+    for (month in Month.values()) {
         if (LocalDate.of(year, month, 13).dayOfWeek == DayOfWeek.FRIDAY)
             cnt++
     }

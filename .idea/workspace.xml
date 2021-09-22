@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="caa47606-33e4-43ed-94e6-1e34b7e51fc3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/src/main/kotlin/ru/sber/generics/Generics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/generics/src/main/kotlin/ru/sber/generics/Generics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datetime/src/main/kotlin/ru/sber/datetime/DateTime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/datetime/src/main/kotlin/ru/sber/datetime/DateTime.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.GenericsTest">
+  <component name="RunManager" selected="JUnit.DateTimeKtTest">
+    <configuration name="DateTimeKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datetime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sber.datetime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sber.datetime" />
+      <option name="MAIN_CLASS_NAME" value="ru.sber.datetime.DateTimeKtTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenericsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="generics" />
       <extension name="coverage">
@@ -97,29 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have averageRate more than 4,5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="functional" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.sber.functional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.sber.functional.StudentsGroupTest" />
-      <option name="MAIN_CLASS_NAME" value="ru.sber.functional.StudentsGroupTest$PowFactoryTest" />
-      <option name="METHOD_NAME" value="filterByPredicate should return students who have averageRate more than 4,5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DateTimeKtTest" />
         <item itemvalue="JUnit.GenericsTest" />
         <item itemvalue="JUnit.GenericsTest.comparePairsTest" />
         <item itemvalue="JUnit.GenericsTest.countGreaterThanTest" />
         <item itemvalue="JUnit.StudentsGroupTest$PowFactoryTest" />
-        <item itemvalue="JUnit.StudentsGroupTest$PowFactoryTest.filterByPredicate should return students who have averageRate more than 4,5" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +136,7 @@
       <workItem from="1631871375170" duration="3432000" />
       <workItem from="1631876577780" duration="4831000" />
       <workItem from="1631886500105" duration="3246000" />
-      <workItem from="1632319210035" duration="2612000" />
+      <workItem from="1632319210035" duration="3200000" />
     </task>
     <servers />
   </component>
