@@ -5,19 +5,18 @@ import io.mockk.InternalPlatformDsl.toArray
 import java.util.*
 
 // 1.
-fun compare(p1: Pair<Any?, Any?>, p2: Pair<Any?, Any?>): Boolean {
+fun <T1, T2> compare(p1: Pair<T1, T2>, p2: Pair<T1, T2>): Boolean {
     if (p1 == p2)
         return true
     return false
 }
 
 // 2.
-fun countGreaterThan(anArray: Array<Any?>, elem: Any?): Int {
-    val array = anArray.plusElement(elem)
+fun <T : Comparable<T>> countGreaterThan(anArray: Array<T>, elem: T): Int {
     var cnt = 0
-    array.sort()
-    while (array[cnt] != elem) {
-        cnt++
+    for (arrElem in anArray) {
+        if (arrElem > elem)
+            cnt++
     }
     return cnt
 }
